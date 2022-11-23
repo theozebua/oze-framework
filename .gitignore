@@ -1,0 +1,7 @@
+/packages
+/vendor
+.DS_Store
+Thumbs.db
+/.idea
+/.vscode
+.phpunit.result.cache
