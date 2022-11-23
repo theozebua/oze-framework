@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "64b543f52a13698c81a1555086992f64",
+    "content-hash": "a9c8de5c9a49c09251f935e7ec7bb42a",
     "packages": [
         {
             "name": "psr/container",
@@ -62,11 +62,17 @@
         },
         {
             "name": "theozebua/oze-framework",
-            "version": "dev-feat/di-container",
+            "version": "1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theozebua/oze-framework.git",
+                "reference": "49e47bda65a6833b556234c8198c9c3eb801d31c"
+            },
             "dist": {
-                "type": "path",
-                "url": "packages/theozebua/oze-framework",
-                "reference": "e17a1001beffd8daacfb1a5a9d478f407d65c834"
+                "type": "zip",
+                "url": "https://api.github.com/repos/theozebua/oze-framework/zipball/49e47bda65a6833b556234c8198c9c3eb801d31c",
+                "reference": "49e47bda65a6833b556234c8198c9c3eb801d31c",
+                "shasum": ""
             },
             "require": {
                 "psr/container": "2.0.x-dev"
@@ -74,6 +80,7 @@
             "require-dev": {
                 "phpunit/phpunit": "10.0.x-dev"
             },
+            "default-branch": true,
             "type": "project",
             "autoload": {
                 "psr-4": {
@@ -95,10 +102,11 @@
                 "oze",
                 "teecoder"
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "support": {
+                "source": "https://github.com/theozebua/oze-framework/tree/main",
+                "issues": "https://github.com/theozebua/oze-framework/issues"
+            },
+            "time": "2022-11-23T10:03:49+00:00"
         }
     ],
     "packages-dev": [],

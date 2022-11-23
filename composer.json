@@ -23,11 +23,8 @@
   },
   "repositories": [
     {
-      "type": "path",
-      "url": "packages/theozebua/oze-framework",
-      "options": {
-        "symlink": true
-      }
+      "type": "vcs",
+      "url": "https://github.com/theozebua/oze-framework.git"
     }
   ],
   "minimum-stability": "dev"
