@@ -14,7 +14,7 @@ final class User
      * 
      * @return array
      */
-    final public function all(): array
+    final public static function all(): array
     {
         return [
             (object) [
