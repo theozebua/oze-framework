@@ -16,7 +16,12 @@
   "autoload": {
     "psr-4": {
       "App\\": "app/"
-    }
+    },
+    "files": [
+      "config/path.php",
+      "helpers/path.php",
+      "helpers/view.php"
+    ]
   },
   "autoload-dev": {
     "psr-4": {}
