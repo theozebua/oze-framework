@@ -15,6 +15,6 @@ if (!function_exists('view')) {
      */
     function view(string $view, array $data = []): View
     {
-        return View::make($view, $data);
+        return View::make(view_path($view), $data);
     }
 }

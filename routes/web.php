@@ -20,7 +20,6 @@ $route = new Route();
 */
 
 $route->get('/', [HomeController::class, 'index']);
-$route->get('/create', [HomeController::class, 'create']);
 
 /*
 |------------------------------------------------------------
