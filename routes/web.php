@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 use App\Controllers\HomeController;
-use Theozebua\OzeFramework\Router\Route;
+use OzeFramework\Router\Route;
 
 /*
 |------------------------------------------------------------

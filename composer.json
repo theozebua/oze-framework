@@ -1,5 +1,5 @@
 {
-  "name": "theozebua/oze-framework-project",
+  "name": "theozebua/oze-framework",
   "type": "project",
   "description": "Just a simple mvc framework for beginners.",
   "keywords": [
@@ -10,7 +10,7 @@
   ],
   "license": "MIT",
   "require": {
-    "theozebua/oze-framework": "@dev"
+    "theozebua/oze-framework-core": "@dev"
   },
   "require-dev": {},
   "autoload": {
@@ -29,7 +29,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/theozebua/oze-framework.git"
+      "url": "https://github.com/theozebua/oze-framework-core.git"
     }
   ],
   "minimum-stability": "dev"

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Theozebua\OzeFramework\Router\Route;
+use OzeFramework\Router\Route;
 
 ini_set('display_errors', true);
 
