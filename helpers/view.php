@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Theozebua\OzeFramework\View\View;
+use OzeFramework\View\View;
 
 if (!function_exists('view')) {
     /**

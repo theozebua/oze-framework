@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a9c8de5c9a49c09251f935e7ec7bb42a",
+    "content-hash": "9fcad0c0001cc4330843f96da3d86ed4",
     "packages": [
         {
             "name": "psr/container",
@@ -61,17 +61,17 @@
             "time": "2022-07-19T17:36:59+00:00"
         },
         {
-            "name": "theozebua/oze-framework",
+            "name": "theozebua/oze-framework-core",
             "version": "1.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/theozebua/oze-framework.git",
-                "reference": "244edd1ca53c21513d6ef3b5779ee43fa6645943"
+                "url": "https://github.com/theozebua/oze-framework-core.git",
+                "reference": "57cc69605b628b48a3ac6afdd30329a0758f5547"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theozebua/oze-framework/zipball/244edd1ca53c21513d6ef3b5779ee43fa6645943",
-                "reference": "244edd1ca53c21513d6ef3b5779ee43fa6645943",
+                "url": "https://api.github.com/repos/theozebua/oze-framework-core/zipball/57cc69605b628b48a3ac6afdd30329a0758f5547",
+                "reference": "57cc69605b628b48a3ac6afdd30329a0758f5547",
                 "shasum": ""
             },
             "require": {
@@ -81,15 +81,15 @@
                 "phpunit/phpunit": "10.0.x-dev"
             },
             "default-branch": true,
-            "type": "project",
+            "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Theozebua\\OzeFramework\\": "src/"
+                    "OzeFramework\\": "src/OzeFramework/"
                 }
             },
             "autoload-dev": {
                 "psr-4": {
-                    "Theozebua\\OzeFramework\\Tests\\": "tests/"
+                    "OzeFramework\\Tests\\": "tests/"
                 }
             },
             "license": [
@@ -103,17 +103,17 @@
                 "teecoder"
             ],
             "support": {
-                "source": "https://github.com/theozebua/oze-framework/tree/main",
-                "issues": "https://github.com/theozebua/oze-framework/issues"
+                "source": "https://github.com/theozebua/oze-framework-core/tree/main",
+                "issues": "https://github.com/theozebua/oze-framework-core/issues"
             },
-            "time": "2022-11-25T10:47:37+00:00"
+            "time": "2022-11-28T08:08:39+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "theozebua/oze-framework": 20
+        "theozebua/oze-framework-core": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
