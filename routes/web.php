@@ -3,15 +3,16 @@
 declare(strict_types=1);
 
 use App\Controllers\HomeController;
-use OzeFramework\Router\Route;
+use OzeFramework\App\App;
 
 /*
 |------------------------------------------------------------
-| Create Router Instance
+| Get The App Instance
 |------------------------------------------------------------
 */
 
-$route = new Route();
+/** @var App $app */
+$app = require __DIR__ . '/../bootstrap/app.php';
 
 /*
 |------------------------------------------------------------
@@ -19,7 +20,7 @@ $route = new Route();
 |------------------------------------------------------------
 */
 
-$route->get('/', [HomeController::class, 'index']);
+$app->route->get('/', [HomeController::class, 'index']);
 
 /*
 |------------------------------------------------------------
@@ -27,4 +28,4 @@ $route->get('/', [HomeController::class, 'index']);
 |------------------------------------------------------------
 */
 
-return $route;
+return $app;

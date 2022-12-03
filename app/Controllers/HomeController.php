@@ -5,12 +5,11 @@ declare(strict_types=1);
 namespace App\Controllers;
 
 use OzeFramework\View\View;
-use function view;
 
 final class HomeController extends Controller
 {
     final public function index(): View
     {
-        return view('welcome');
+        return View::make('welcome');
     }
 }
