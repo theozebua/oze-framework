@@ -2,25 +2,22 @@
 
 declare(strict_types=1);
 
-use OzeFramework\Router\Route;
+use OzeFramework\App\App;
 
 ini_set('display_errors', true);
 
 /*
 |------------------------------------------------------------
-| Get All Registered Routes
+| Create The App Instance
 |------------------------------------------------------------
 */
 
-/** @var Route $route */
-$route = require __DIR__ . '/../routes/web.php';
+$app = new App(dirname(__DIR__));
 
 /*
 |------------------------------------------------------------
-| Resolve All Registered Routes
+| Return The App Instance
 |------------------------------------------------------------
 */
 
-$requestMethod = $_POST['_method'] ?? $_SERVER['REQUEST_METHOD'];
-
-$route->routeRegistrar->resolve($_SERVER['REQUEST_URI'], strtoupper($requestMethod));
+return $app;
