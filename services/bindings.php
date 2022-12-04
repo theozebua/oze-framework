@@ -2,23 +2,22 @@
 
 declare(strict_types=1);
 
-use App\Controllers\HomeController;
-use OzeFramework\Router\Route;
+use OzeFramework\Container\Container;
 
 /*
 |------------------------------------------------------------
-| Register Web Routes
+| Register Bindings With The Container
 |------------------------------------------------------------
 */
 
-$route = new Route();
+$container = new Container();
 
-$route->get('/', [HomeController::class, 'index']);
+// $container->bind(Something::class, fn (Container $c) => $c->get(Something::class));
 
 /*
 |------------------------------------------------------------
-| Return The Router Instance
+| Return The Container Instance
 |------------------------------------------------------------
 */
 
-return $route;
+return $container;
