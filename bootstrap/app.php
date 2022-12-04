@@ -8,15 +8,17 @@ ini_set('display_errors', true);
 
 /*
 |------------------------------------------------------------
-| Create The App Instance
+| Create The Application Instance
 |------------------------------------------------------------
 */
 
-$app = new App(dirname(__DIR__));
+$container = require __DIR__ . '/../services/bindings.php';
+$route     = require __DIR__ . '/../routes/web.php';
+$app       = new App(dirname(__DIR__), $container, $route);
 
 /*
 |------------------------------------------------------------
-| Return The App Instance
+| Return The Application Instance
 |------------------------------------------------------------
 */
 

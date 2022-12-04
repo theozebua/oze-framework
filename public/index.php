@@ -2,8 +2,6 @@
 
 declare(strict_types=1);
 
-use OzeFramework\App\App;
-
 ini_set('display_errors', true);
 
 /*
@@ -20,8 +18,7 @@ require __DIR__ . '/../vendor/autoload.php';
 |------------------------------------------------------------
 */
 
-/** @var App $app */
-$app = require __DIR__ . '/../routes/web.php';
+$app = require __DIR__ . '/../bootstrap/app.php';
 
 /*
 |------------------------------------------------------------
