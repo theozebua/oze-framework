@@ -4,27 +4,13 @@ declare(strict_types=1);
 
 namespace App\Models;
 
-/**
- * This is just an example of a model.
- */
-final class User
+use OzeFramework\Database\Model;
+
+final class User extends Model
 {
-    /**
-     * Get all dummy users.
-     * 
-     * @return array
-     */
-    final public static function all(): array
-    {
-        return [
-            (object) [
-                'name'  => 'John Doe',
-                'email' => 'johndoe@gmail.com',
-            ],
-            (object) [
-                'name'  => 'Jane Doe',
-                'email' => 'janedoe@gmail.com',
-            ],
-        ];
-    }
+    /** {@inheritdoc} */
+    protected string $model = self::class;
+
+    /** {@inheritdoc} */
+    protected string $table = 'users';
 }
