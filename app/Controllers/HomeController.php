@@ -10,6 +10,6 @@ final class HomeController extends Controller
 {
     final public function index(): View
     {
-        return View::make('welcome');
+        return view('welcome');
     }
 }
