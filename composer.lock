@@ -66,12 +66,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theozebua/oze-framework-core.git",
-                "reference": "2314f5f3bc65d8d4a2ac01963cff5d014acae44d"
+                "reference": "6d517e7874a0a701aca1ffc59b32dcadaaaace59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theozebua/oze-framework-core/zipball/2314f5f3bc65d8d4a2ac01963cff5d014acae44d",
-                "reference": "2314f5f3bc65d8d4a2ac01963cff5d014acae44d",
+                "url": "https://api.github.com/repos/theozebua/oze-framework-core/zipball/6d517e7874a0a701aca1ffc59b32dcadaaaace59",
+                "reference": "6d517e7874a0a701aca1ffc59b32dcadaaaace59",
                 "shasum": ""
             },
             "require": {
@@ -85,7 +85,10 @@
             "autoload": {
                 "psr-4": {
                     "OzeFramework\\": "src/OzeFramework/"
-                }
+                },
+                "files": [
+                    "src/OzeFramework/View/helpers.php"
+                ]
             },
             "autoload-dev": {
                 "psr-4": {
@@ -106,7 +109,7 @@
                 "source": "https://github.com/theozebua/oze-framework-core/tree/main",
                 "issues": "https://github.com/theozebua/oze-framework-core/issues"
             },
-            "time": "2022-12-05T15:15:17+00:00"
+            "time": "2022-12-06T02:07:28+00:00"
         }
     ],
     "packages-dev": [],
