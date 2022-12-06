@@ -456,12 +456,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theozebua/oze-framework-core.git",
-                "reference": "2e7047d5df40bf625f8c9eaf84c8990e8756d789"
+                "reference": "63d09cdf8a93dda57f69bd81edb3017d2bc458d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theozebua/oze-framework-core/zipball/2e7047d5df40bf625f8c9eaf84c8990e8756d789",
-                "reference": "2e7047d5df40bf625f8c9eaf84c8990e8756d789",
+                "url": "https://api.github.com/repos/theozebua/oze-framework-core/zipball/63d09cdf8a93dda57f69bd81edb3017d2bc458d5",
+                "reference": "63d09cdf8a93dda57f69bd81edb3017d2bc458d5",
                 "shasum": ""
             },
             "require": {
@@ -478,7 +478,8 @@
                     "OzeFramework\\": "src/OzeFramework/"
                 },
                 "files": [
-                    "src/OzeFramework/View/helpers.php"
+                    "src/OzeFramework/View/helpers.php",
+                    "src/OzeFramework/Env/helpers.php"
                 ]
             },
             "autoload-dev": {
@@ -500,7 +501,7 @@
                 "source": "https://github.com/theozebua/oze-framework-core/tree/main",
                 "issues": "https://github.com/theozebua/oze-framework-core/issues"
             },
-            "time": "2022-12-06T08:17:16+00:00"
+            "time": "2022-12-06T08:35:56+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
