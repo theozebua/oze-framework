@@ -9,5 +9,5 @@ return [
     'port'       => env('DATABASE_PORT') ?: '3306',
     'database'   => env('DATABASE_NAME') ?: 'oze_framework',
     'username'   => env('DATABASE_USER') ?: 'root',
-    'password'   => env('DATABASE_PASS'),
+    'password'   => env('DATABASE_PASS') ?: '',
 ];
