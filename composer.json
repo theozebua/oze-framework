@@ -10,9 +10,9 @@
   ],
   "license": "MIT",
   "require": {
+    "php": "^8.1",
     "theozebua/oze-framework-core": "@dev"
   },
-  "require-dev": {},
   "autoload": {
     "psr-4": {
       "App\\": "app/"
