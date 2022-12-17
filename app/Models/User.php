@@ -9,8 +9,5 @@ use OzeFramework\Database\Model;
 final class User extends Model
 {
     /** {@inheritdoc} */
-    protected string $model = self::class;
-
-    /** {@inheritdoc} */
     protected string $table = 'users';
 }
