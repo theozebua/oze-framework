@@ -9,5 +9,5 @@ use OzeFramework\Database\Model;
 final class User extends Model
 {
     /** {@inheritdoc} */
-    protected string $table = 'users';
+    protected ?string $table = 'users';
 }
